@@ -1,10 +1,10 @@
 ================
-summa - textrank
+summa - KeywordSummaryExtractor-NLP
 ================
 
-TextRank_ implementation for text summarization and keyword extraction in Python. An online version can be tested `here <http://104.131.76.203>`_.
+KeywordSummaryExtractor-NLP_ implementation for text summarization and keyword extraction in Python. An online version can be tested `here <http://104.131.76.203>`_.
 
-.. _TextRank: http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+.. _KeywordSummaryExtractor-NLP: http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
 
 Features
 --------
@@ -64,7 +64,7 @@ More examples
 - Command-line usage::
 
     cd path/to/folder/summa/
-    python textrank.py -t FILE
+    python KeywordSummaryExtractor-NLP.py -t FILE
 
 
 - Export::
@@ -97,6 +97,3 @@ The available languages are "danish", "dutch", "english", "finnish", "french", "
 
 
 -------------
-
-Summa is open source software released under the `The MIT License (MIT) <http://opensource.org/licenses/MIT>`_.
-Copyright (c) 2014 - now Summa NLP
